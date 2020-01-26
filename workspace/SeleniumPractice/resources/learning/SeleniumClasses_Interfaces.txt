@@ -1,0 +1,26 @@
+public interface SearchContext{
+	public WebElement findElement(By locator);
+	
+	public List<WebElement> findElements(By locator);
+}
+
+
+SearchContext is parent for WebDriver and WebElement interfaces
+
+Class ChromeDriver/FireFoxDriver/SafariDriver/IEDriver implements WebDriver interface.
+
+interface WebDriver extends SearchContext{
+	get(String url);
+	close();
+	quit();
+}
+
+public class ChromeDriver implements WebDriver{
+
+}
+
+interface WebElement extends SearchContext{
+	sendKeys(CharSequences...ch);
+	click();
+	String getText();
+}

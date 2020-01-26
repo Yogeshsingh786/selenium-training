@@ -1,0 +1,12 @@
+XPath Locators 
+
+Parent
+//li/parent::div[@id="atfResults"]
+Ancestor
+//li/ancestor::div[@id="atfResults"]
+
+siblings(at same level)
+below of the current webelement
+//div/following-sibling::span
+above of the current webelement
+//div/preceeding-sibling::span
