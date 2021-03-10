@@ -1,0 +1,20 @@
+{
+	"AdditionCalculator": {
+		"FirstNumber": {
+			"locatorType": "name",
+			"locatorValue": "firstNumber"
+		},
+		"SecondNumber": {
+			"locatorType": "name",
+			"locatorValue": "secondNumber"
+		},
+		"Submit": {
+			"locatorType": "cssselector",
+			"locatorValue": "input.btn"
+		},
+		"AdditionResult": {
+			"locatorType": "xpath",
+			"locatorValue": "//*[.='Results']/following-sibling::div"
+		}
+	}
+}

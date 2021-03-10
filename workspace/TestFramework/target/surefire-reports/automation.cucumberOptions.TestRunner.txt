@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: automation.cucumberOptions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 33.135 s <<< FAILURE! - in automation.cucumberOptions.TestRunner
+User enters valid numbers as inputs for addition(Addition Calculator)  Time elapsed: 2.974 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<0.98[00000000000001]> but was:<0.98[]>
+
+User enters valid numbers as inputs for addition(Addition Calculator)  Time elapsed: 2.989 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<-1.49[00000000000002]> but was:<-1.49[]>
+
